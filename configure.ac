@@ -17,7 +17,7 @@ AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_PROG_MAKE_SET
 AC_PROG_RANLIB
-PKG_CHECK_EXISTS([systemd], [have_systemd=yes], [have_systemd=no])
+#PKG_CHECK_EXISTS([systemd], [have_systemd=yes], [have_systemd=no])
 #AM_CONDITIONAL([HAVE_SYSTEMD], [test x$have_systemd = xyes])
 
 # Checks for libraries.

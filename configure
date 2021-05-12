@@ -3748,7 +3748,7 @@ else
   RANLIB="$ac_cv_prog_RANLIB"
 fi
 
-PKG_CHECK_EXISTS(systemd, have_systemd=yes, have_systemd=no)
+#PKG_CHECK_EXISTS([systemd], [have_systemd=yes], [have_systemd=no])
 #AM_CONDITIONAL([HAVE_SYSTEMD], [test x$have_systemd = xyes])
 
 # Checks for libraries.
