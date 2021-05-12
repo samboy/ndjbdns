@@ -17,6 +17,19 @@ My ability to support N-DJBDNS is very limited; I actually use (actually, I
 because it’s important to have a currently maintained version of this
 DNS server, and no one else is stepping up to the plate to maintain it.
 
+# Autoconf rant
+
+The various autoconf files here did not work with the Ubuntu 20.04 default
+version of autoconf.  It would appear that autoconf is not very good about
+keeping compatibility between versions, and the autoconf files were for an
+older version of autoconf.
+
+That in mind, I have replaced the autoconf input files with the
+autoconf-generated files from the (probably) final N-DJBDNS release: 
+`configure`, and various `Makefile.in` files.
+
+These work on Ubuntu 20.04: A git checkout now compiles.  
+
 New-DJBDNS
 ==========
 
