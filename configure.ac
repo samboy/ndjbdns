@@ -3,8 +3,8 @@
 
 AC_PREREQ([2.63])
 AC_INIT([ndjbdns], [1.06], [pj.pandit@yahoo.co.in])
-AM_INIT_AUTOMAKE
-AM_MAINTAINER_MODE
+#AM_INIT_AUTOMAKE
+#AM_MAINTAINER_MODE
 AC_CONFIG_SRCDIR([dnsip.c])
 AC_CONFIG_HEADERS([config.h])
 
@@ -18,7 +18,7 @@ AC_PROG_LN_S
 AC_PROG_MAKE_SET
 AC_PROG_RANLIB
 PKG_CHECK_EXISTS([systemd], [have_systemd=yes], [have_systemd=no])
-AM_CONDITIONAL([HAVE_SYSTEMD], [test x$have_systemd = xyes])
+#AM_CONDITIONAL([HAVE_SYSTEMD], [test x$have_systemd = xyes])
 
 # Checks for libraries.
 
