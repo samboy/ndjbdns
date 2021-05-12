@@ -11,8 +11,6 @@ autom4te.*
 *.orig
 *.patch
 *.rej
-Makefile.in
-*/Makefile.in
 aclocal.m4
 INSTALL
 config.h.in
