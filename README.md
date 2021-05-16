@@ -77,8 +77,13 @@ Consult the dnscache(8) manual page for more help.
 Problems:
 ---------
 
-If you encounter any problems while installing New-DJBDNS OR find bugs in its
-working, please send an email to <pj.pandit@yahoo.co.in> describing in detail
-about the problem/bug.
+If there are any issues with the code, and the issue is *not* an issue with
+basic functionality in Ubuntu 20.04, an update to the root server IP list,
+or a security hole *with a CVE number*, support is limited.  I am putting
+up strong support boundaries so that I can keep my sanity while maintaining
+*two* different DNS servers.
 
-Thank you!
+Support is in the MaraDNS support forum:
+
+	https://github.com/samboy/MaraDNS/discussions/87
+
