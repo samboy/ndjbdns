@@ -1,3 +1,13 @@
+# Important
+
+To compile in Ubuntu 26.04:
+
+```
+export CC="c99 -D_DEFAULT_SOURCE"
+./configure
+make
+```
+
 # Note from Sam Trenholme
 
 This is a maintenance-only fork of N-DJBDNS.  The only things that
