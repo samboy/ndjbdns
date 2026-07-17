@@ -8,6 +8,12 @@ export CC="c99 -D_DEFAULT_SOURCE"
 make
 ```
 
+# Debian djbdns
+
+The [Debian branch of djbdns](https://salsa.debian.org/debian/djbdns)
+has been updated as recently as 2025, but requires the Debian-specific
+build process to compile and run.
+
 # Note from Sam Trenholme
 
 This is a maintenance-only fork of N-DJBDNS.  The only things that
